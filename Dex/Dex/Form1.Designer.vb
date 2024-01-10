@@ -99,7 +99,7 @@ Partial Class Form1
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(130, 41)
         Me.Button6.TabIndex = 8
-        Me.Button6.Text = "Abilities"
+        Me.Button6.Text = "Ability"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'Button7
@@ -108,7 +108,7 @@ Partial Class Form1
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(130, 41)
         Me.Button7.TabIndex = 9
-        Me.Button7.Text = "Proportions"
+        Me.Button7.Text = "Stats"
         Me.Button7.UseVisualStyleBackColor = True
         '
         'Button8
