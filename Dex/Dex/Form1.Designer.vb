@@ -69,7 +69,6 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox1.Image = Global.Dex.My.Resources.Resources._094
         Me.PictureBox1.Location = New System.Drawing.Point(368, 86)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(332, 284)
@@ -83,6 +82,7 @@ Partial Class Form1
         Me.Field1.Name = "Field1"
         Me.Field1.Size = New System.Drawing.Size(100, 22)
         Me.Field1.TabIndex = 3
+        Me.Field1.Text = "Gengar "
         '
         'Field2
         '
@@ -90,6 +90,7 @@ Partial Class Form1
         Me.Field2.Name = "Field2"
         Me.Field2.Size = New System.Drawing.Size(100, 22)
         Me.Field2.TabIndex = 4
+        Me.Field2.Text = "Ghost, Poison"
         '
         'Field3
         '
@@ -97,6 +98,7 @@ Partial Class Form1
         Me.Field3.Name = "Field3"
         Me.Field3.Size = New System.Drawing.Size(100, 22)
         Me.Field3.TabIndex = 5
+        Me.Field3.Text = "Cursed body"
         '
         'Field4
         '
@@ -104,6 +106,7 @@ Partial Class Form1
         Me.Field4.Name = "Field4"
         Me.Field4.Size = New System.Drawing.Size(100, 22)
         Me.Field4.TabIndex = 6
+        Me.Field4.Text = "89 lbs"
         '
         'Field5
         '
@@ -111,6 +114,7 @@ Partial Class Form1
         Me.Field5.Name = "Field5"
         Me.Field5.Size = New System.Drawing.Size(100, 22)
         Me.Field5.TabIndex = 7
+        Me.Field5.Text = "60 hp"
         '
         'OpenFileDialog1
         '
