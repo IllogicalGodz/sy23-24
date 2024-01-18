@@ -2,6 +2,8 @@
 
 Public Class Form1
     Dim records(50) As String
+    Dim current As Integer
+    Dim count As Integer
     Private Sub SaveToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SaveToolStripMenuItem.Click
         PictureBox1.Image = Nothing
         Field1.Text = ""
@@ -38,7 +40,10 @@ Public Class Form1
     Private Sub form1_load(sender As Object, e As EventArgs) Handles MyBase.Load
         If IO.File.Exists("data.txt") Then
             Dim inFile As New StreamReader("data.txt")
-            records(0) = inFile.ReadLine
+            While Not inFile.EndOfStream
+                records(count) = inFile.ReadLine
+                count = count + 1
+            End While
             'records(1) = inFile.ReadLine
             inFile.Close()
             showrecord(0)
@@ -57,5 +62,15 @@ Public Class Form1
                 PictureBox1.Load(Fields(5))
             End If
         End If
+    End Sub
+
+    Private Sub FirstButton_Click(sender As Object, e As EventArgs) Handles FirstButton.Click
+        current = 0
+        showrecord(current)
+    End Sub
+
+    Private Sub LastButton_Click(sender As Object, e As EventArgs) Handles LastButton.Click
+        current = count - 1
+        showrecord(current)
     End Sub
 End Class

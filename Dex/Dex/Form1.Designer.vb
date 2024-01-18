@@ -33,10 +33,10 @@ Partial Class Form1
         Me.Field4 = New System.Windows.Forms.TextBox()
         Me.Field5 = New System.Windows.Forms.TextBox()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.FirstButton = New System.Windows.Forms.Button()
+        Me.PreviousButton = New System.Windows.Forms.Button()
+        Me.NextButton = New System.Windows.Forms.Button()
+        Me.LastButton = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -47,7 +47,7 @@ Partial Class Form1
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(817, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(817, 30)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -55,19 +55,19 @@ Partial Class Form1
         '
         Me.NewToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SaveToolStripMenuItem, Me.SaveToolStripMenuItem1})
         Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
-        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(84, 24)
+        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(84, 26)
         Me.NewToolStripMenuItem.Text = "Pokemon"
         '
         'SaveToolStripMenuItem
         '
         Me.SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
-        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(123, 26)
         Me.SaveToolStripMenuItem.Text = "New"
         '
         'SaveToolStripMenuItem1
         '
         Me.SaveToolStripMenuItem1.Name = "SaveToolStripMenuItem1"
-        Me.SaveToolStripMenuItem1.Size = New System.Drawing.Size(224, 26)
+        Me.SaveToolStripMenuItem1.Size = New System.Drawing.Size(123, 26)
         Me.SaveToolStripMenuItem1.Text = "Save"
         '
         'PictureBox1
@@ -122,53 +122,52 @@ Partial Class Form1
         '
         'OpenFileDialog1
         '
-        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
-        'Button1
+        'FirstButton
         '
-        Me.Button1.Location = New System.Drawing.Point(311, 397)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 8
-        Me.Button1.Text = "First"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.FirstButton.Location = New System.Drawing.Point(311, 397)
+        Me.FirstButton.Name = "FirstButton"
+        Me.FirstButton.Size = New System.Drawing.Size(75, 23)
+        Me.FirstButton.TabIndex = 8
+        Me.FirstButton.Text = "First"
+        Me.FirstButton.UseVisualStyleBackColor = True
         '
-        'Button2
+        'PreviousButton
         '
-        Me.Button2.Location = New System.Drawing.Point(415, 397)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 9
-        Me.Button2.Text = "Previous"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.PreviousButton.Location = New System.Drawing.Point(415, 397)
+        Me.PreviousButton.Name = "PreviousButton"
+        Me.PreviousButton.Size = New System.Drawing.Size(75, 23)
+        Me.PreviousButton.TabIndex = 9
+        Me.PreviousButton.Text = "Previous"
+        Me.PreviousButton.UseVisualStyleBackColor = True
         '
-        'Button3
+        'NextButton
         '
-        Me.Button3.Location = New System.Drawing.Point(519, 397)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 10
-        Me.Button3.Text = "Next"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.NextButton.Location = New System.Drawing.Point(519, 397)
+        Me.NextButton.Name = "NextButton"
+        Me.NextButton.Size = New System.Drawing.Size(75, 23)
+        Me.NextButton.TabIndex = 10
+        Me.NextButton.Text = "Next"
+        Me.NextButton.UseVisualStyleBackColor = True
         '
-        'Button4
+        'LastButton
         '
-        Me.Button4.Location = New System.Drawing.Point(623, 397)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
-        Me.Button4.TabIndex = 11
-        Me.Button4.Text = "Last"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.LastButton.Location = New System.Drawing.Point(623, 397)
+        Me.LastButton.Name = "LastButton"
+        Me.LastButton.Size = New System.Drawing.Size(75, 23)
+        Me.LastButton.TabIndex = 11
+        Me.LastButton.Text = "Last"
+        Me.LastButton.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(817, 432)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.LastButton)
+        Me.Controls.Add(Me.NextButton)
+        Me.Controls.Add(Me.PreviousButton)
+        Me.Controls.Add(Me.FirstButton)
         Me.Controls.Add(Me.Field5)
         Me.Controls.Add(Me.Field4)
         Me.Controls.Add(Me.Field3)
@@ -198,8 +197,8 @@ Partial Class Form1
     Friend WithEvents Field4 As TextBox
     Friend WithEvents Field5 As TextBox
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents FirstButton As Button
+    Friend WithEvents PreviousButton As Button
+    Friend WithEvents NextButton As Button
+    Friend WithEvents LastButton As Button
 End Class
