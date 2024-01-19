@@ -34,7 +34,7 @@ Partial Class Form1
         Me.Field5 = New System.Windows.Forms.TextBox()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.FirstButton = New System.Windows.Forms.Button()
-        Me.PreviousButton = New System.Windows.Forms.Button()
+        Me.PrevButton = New System.Windows.Forms.Button()
         Me.NextButton = New System.Windows.Forms.Button()
         Me.LastButton = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
@@ -47,7 +47,7 @@ Partial Class Form1
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(817, 30)
+        Me.MenuStrip1.Size = New System.Drawing.Size(817, 28)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -55,7 +55,7 @@ Partial Class Form1
         '
         Me.NewToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SaveToolStripMenuItem, Me.SaveToolStripMenuItem1})
         Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
-        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(84, 26)
+        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(84, 24)
         Me.NewToolStripMenuItem.Text = "Pokemon"
         '
         'SaveToolStripMenuItem
@@ -132,14 +132,14 @@ Partial Class Form1
         Me.FirstButton.Text = "First"
         Me.FirstButton.UseVisualStyleBackColor = True
         '
-        'PreviousButton
+        'PrevButton
         '
-        Me.PreviousButton.Location = New System.Drawing.Point(415, 397)
-        Me.PreviousButton.Name = "PreviousButton"
-        Me.PreviousButton.Size = New System.Drawing.Size(75, 23)
-        Me.PreviousButton.TabIndex = 9
-        Me.PreviousButton.Text = "Previous"
-        Me.PreviousButton.UseVisualStyleBackColor = True
+        Me.PrevButton.Location = New System.Drawing.Point(415, 397)
+        Me.PrevButton.Name = "PrevButton"
+        Me.PrevButton.Size = New System.Drawing.Size(75, 23)
+        Me.PrevButton.TabIndex = 9
+        Me.PrevButton.Text = "Previous"
+        Me.PrevButton.UseVisualStyleBackColor = True
         '
         'NextButton
         '
@@ -166,7 +166,7 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(817, 432)
         Me.Controls.Add(Me.LastButton)
         Me.Controls.Add(Me.NextButton)
-        Me.Controls.Add(Me.PreviousButton)
+        Me.Controls.Add(Me.PrevButton)
         Me.Controls.Add(Me.FirstButton)
         Me.Controls.Add(Me.Field5)
         Me.Controls.Add(Me.Field4)
@@ -198,7 +198,7 @@ Partial Class Form1
     Friend WithEvents Field5 As TextBox
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents FirstButton As Button
-    Friend WithEvents PreviousButton As Button
+    Friend WithEvents PrevButton As Button
     Friend WithEvents NextButton As Button
     Friend WithEvents LastButton As Button
 End Class
