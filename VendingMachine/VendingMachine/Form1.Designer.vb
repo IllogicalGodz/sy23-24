@@ -27,12 +27,13 @@ Partial Class Form1
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(333, 29)
+        Me.Label1.Location = New System.Drawing.Point(579, 213)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(48, 16)
         Me.Label1.TabIndex = 4
@@ -41,44 +42,54 @@ Partial Class Form1
         'Button4
         '
         Me.Button4.Image = Global.VendingMachine.My.Resources.Resources._2023_s1d_morgan_bu_obv
-        Me.Button4.Location = New System.Drawing.Point(243, 236)
+        Me.Button4.Location = New System.Drawing.Point(12, 220)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(167, 163)
+        Me.Button4.Size = New System.Drawing.Size(102, 97)
         Me.Button4.TabIndex = 3
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button3
         '
         Me.Button3.Image = Global.VendingMachine.My.Resources.Resources.download__13_
-        Me.Button3.Location = New System.Drawing.Point(243, 54)
+        Me.Button3.Location = New System.Drawing.Point(12, 324)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(167, 163)
+        Me.Button3.Size = New System.Drawing.Size(102, 97)
         Me.Button3.TabIndex = 2
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button2
         '
         Me.Button2.Image = Global.VendingMachine.My.Resources.Resources.download__14_
-        Me.Button2.Location = New System.Drawing.Point(55, 236)
+        Me.Button2.Location = New System.Drawing.Point(12, 116)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(167, 163)
+        Me.Button2.Size = New System.Drawing.Size(102, 97)
         Me.Button2.TabIndex = 1
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button1
         '
         Me.Button1.Image = Global.VendingMachine.My.Resources.Resources._220px_1994_P_Washington_quarter_obverse
-        Me.Button1.Location = New System.Drawing.Point(55, 54)
+        Me.Button1.Location = New System.Drawing.Point(12, 12)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(167, 163)
+        Me.Button1.Size = New System.Drawing.Size(102, 97)
         Me.Button1.TabIndex = 0
         Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(560, 253)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(84, 22)
+        Me.Button5.TabIndex = 5
+        Me.Button5.Text = "Coin Return"
+        Me.Button5.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
@@ -96,4 +107,5 @@ Partial Class Form1
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents Button5 As Button
 End Class
