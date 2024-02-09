@@ -96,6 +96,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="productControl.Designer.vb">
+      <DependentUpon>productControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="productControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -106,6 +112,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="productControl.resx">
+      <DependentUpon>productControl.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -134,6 +143,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\2023-s1d-morgan-bu-obv.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81iUuyr2R7L.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91NjwbVi0+L._AC_UF1000,1000_QL80_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GUEST_bf6aeb98-6ea3-4be2-81d5-17088f7eca15.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\816ubtKmIHL._AC_UF894,1000_QL80_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81f91uaJObL.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GUEST_5cfe1a12-f114-4217-8596-9aed252a3110.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ItemImage-973890-q5xfky-epdrh4-b2oevv.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hersey+Bar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2815%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2816%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2817%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2818%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2819%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2820%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002111738-1.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61cPgyyfqEL.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %285%29.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
