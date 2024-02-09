@@ -29,6 +29,25 @@ Public Class Form1
     End Sub
 
     Private Sub CS_coinReturnEvent(d As Integer, q As Integer, dm As Integer, n As Integer) Handles CS.coinReturnEvent
-        Me.BackColor = Color.Red
+        If d > 0 Then
+            DollarPic.Visible = True
+        Else
+            DollarPic.Visible = False
+        End If
+        If q > 0 Then
+            QuarterPic.Visible = True
+        Else
+            QuarterPic.Visible = False
+        End If
+        If dm > 0 Then
+            DimePic.Visible = True
+        Else
+            DimePic.Visible = False
+        End If
+        If n > 0 Then
+            NickelPic.Visible = True
+        Else
+            NickelPic.Visible = False
+        End If
     End Sub
 End Class

@@ -28,6 +28,14 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
+        Me.QuarterPic = New System.Windows.Forms.PictureBox()
+        Me.DimePic = New System.Windows.Forms.PictureBox()
+        Me.DollarPic = New System.Windows.Forms.PictureBox()
+        Me.NickelPic = New System.Windows.Forms.PictureBox()
+        CType(Me.QuarterPic, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DimePic, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DollarPic, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NickelPic, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -84,11 +92,59 @@ Partial Class Form1
         Me.Button5.Text = "Coin Return"
         Me.Button5.UseVisualStyleBackColor = True
         '
+        'QuarterPic
+        '
+        Me.QuarterPic.Image = Global.VendingMachine.My.Resources.Resources._220px_1994_P_Washington_quarter_obverse
+        Me.QuarterPic.Location = New System.Drawing.Point(171, 12)
+        Me.QuarterPic.Name = "QuarterPic"
+        Me.QuarterPic.Size = New System.Drawing.Size(102, 97)
+        Me.QuarterPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.QuarterPic.TabIndex = 6
+        Me.QuarterPic.TabStop = False
+        Me.QuarterPic.Visible = False
+        '
+        'DimePic
+        '
+        Me.DimePic.Image = Global.VendingMachine.My.Resources.Resources.download__14_
+        Me.DimePic.Location = New System.Drawing.Point(171, 115)
+        Me.DimePic.Name = "DimePic"
+        Me.DimePic.Size = New System.Drawing.Size(102, 97)
+        Me.DimePic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.DimePic.TabIndex = 7
+        Me.DimePic.TabStop = False
+        Me.DimePic.Visible = False
+        '
+        'DollarPic
+        '
+        Me.DollarPic.Image = Global.VendingMachine.My.Resources.Resources._2023_s1d_morgan_bu_obv
+        Me.DollarPic.Location = New System.Drawing.Point(171, 219)
+        Me.DollarPic.Name = "DollarPic"
+        Me.DollarPic.Size = New System.Drawing.Size(102, 97)
+        Me.DollarPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.DollarPic.TabIndex = 8
+        Me.DollarPic.TabStop = False
+        Me.DollarPic.Visible = False
+        '
+        'NickelPic
+        '
+        Me.NickelPic.Image = Global.VendingMachine.My.Resources.Resources.download__13_
+        Me.NickelPic.Location = New System.Drawing.Point(171, 324)
+        Me.NickelPic.Name = "NickelPic"
+        Me.NickelPic.Size = New System.Drawing.Size(102, 97)
+        Me.NickelPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.NickelPic.TabIndex = 9
+        Me.NickelPic.TabStop = False
+        Me.NickelPic.Visible = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.NickelPic)
+        Me.Controls.Add(Me.DollarPic)
+        Me.Controls.Add(Me.DimePic)
+        Me.Controls.Add(Me.QuarterPic)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button4)
@@ -97,6 +153,10 @@ Partial Class Form1
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form1"
         Me.Text = "Form1"
+        CType(Me.QuarterPic, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DimePic, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DollarPic, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NickelPic, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -108,4 +168,8 @@ Partial Class Form1
     Friend WithEvents Button4 As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Button5 As Button
+    Friend WithEvents QuarterPic As PictureBox
+    Friend WithEvents DimePic As PictureBox
+    Friend WithEvents DollarPic As PictureBox
+    Friend WithEvents NickelPic As PictureBox
 End Class
