@@ -57,7 +57,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(579, 213)
+        Me.Label1.Location = New System.Drawing.Point(612, 238)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(48, 16)
         Me.Label1.TabIndex = 4
@@ -65,9 +65,9 @@ Partial Class Form1
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(560, 253)
+        Me.Button5.Location = New System.Drawing.Point(582, 267)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(95, 29)
+        Me.Button5.Size = New System.Drawing.Size(104, 45)
         Me.Button5.TabIndex = 5
         Me.Button5.Text = "Coin Return"
         Me.Button5.UseVisualStyleBackColor = True
@@ -267,7 +267,7 @@ Partial Class Form1
         'NickelPic
         '
         Me.NickelPic.Image = Global.VendingMachine.My.Resources.Resources.download__13_
-        Me.NickelPic.Location = New System.Drawing.Point(646, 494)
+        Me.NickelPic.Location = New System.Drawing.Point(646, 339)
         Me.NickelPic.Name = "NickelPic"
         Me.NickelPic.Size = New System.Drawing.Size(102, 97)
         Me.NickelPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -278,7 +278,7 @@ Partial Class Form1
         'DollarPic
         '
         Me.DollarPic.Image = Global.VendingMachine.My.Resources.Resources._2023_s1d_morgan_bu_obv
-        Me.DollarPic.Location = New System.Drawing.Point(525, 494)
+        Me.DollarPic.Location = New System.Drawing.Point(646, 456)
         Me.DollarPic.Name = "DollarPic"
         Me.DollarPic.Size = New System.Drawing.Size(102, 97)
         Me.DollarPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -289,7 +289,7 @@ Partial Class Form1
         'DimePic
         '
         Me.DimePic.Image = Global.VendingMachine.My.Resources.Resources.download__14_
-        Me.DimePic.Location = New System.Drawing.Point(646, 597)
+        Me.DimePic.Location = New System.Drawing.Point(525, 456)
         Me.DimePic.Name = "DimePic"
         Me.DimePic.Size = New System.Drawing.Size(102, 97)
         Me.DimePic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -300,7 +300,7 @@ Partial Class Form1
         'QuarterPic
         '
         Me.QuarterPic.Image = Global.VendingMachine.My.Resources.Resources._220px_1994_P_Washington_quarter_obverse
-        Me.QuarterPic.Location = New System.Drawing.Point(525, 597)
+        Me.QuarterPic.Location = New System.Drawing.Point(525, 339)
         Me.QuarterPic.Name = "QuarterPic"
         Me.QuarterPic.Size = New System.Drawing.Size(102, 97)
         Me.QuarterPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -311,7 +311,7 @@ Partial Class Form1
         'Button4
         '
         Me.Button4.Image = Global.VendingMachine.My.Resources.Resources._2023_s1d_morgan_bu_obv
-        Me.Button4.Location = New System.Drawing.Point(646, 391)
+        Me.Button4.Location = New System.Drawing.Point(646, 115)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(102, 97)
         Me.Button4.TabIndex = 3
@@ -320,7 +320,7 @@ Partial Class Form1
         'Button3
         '
         Me.Button3.Image = Global.VendingMachine.My.Resources.Resources.download__13_
-        Me.Button3.Location = New System.Drawing.Point(525, 391)
+        Me.Button3.Location = New System.Drawing.Point(646, 12)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(102, 97)
         Me.Button3.TabIndex = 2
@@ -329,7 +329,7 @@ Partial Class Form1
         'Button2
         '
         Me.Button2.Image = Global.VendingMachine.My.Resources.Resources.download__14_
-        Me.Button2.Location = New System.Drawing.Point(525, 288)
+        Me.Button2.Location = New System.Drawing.Point(525, 115)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(102, 97)
         Me.Button2.TabIndex = 1
@@ -338,7 +338,7 @@ Partial Class Form1
         'Button1
         '
         Me.Button1.Image = Global.VendingMachine.My.Resources.Resources._220px_1994_P_Washington_quarter_obverse
-        Me.Button1.Location = New System.Drawing.Point(646, 288)
+        Me.Button1.Location = New System.Drawing.Point(525, 12)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(102, 97)
         Me.Button1.TabIndex = 0
