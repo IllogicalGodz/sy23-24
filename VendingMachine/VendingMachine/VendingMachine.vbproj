@@ -198,5 +198,8 @@
   <ItemGroup>
     <None Include="Resources\images %285%29.jfif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81iUuyr2R7L1.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
